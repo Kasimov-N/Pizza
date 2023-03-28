@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap: 30px;
+}
+
+.home .Cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cards .card {
+    width: 270px;
+    height: 530px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 180px 180px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 21px 17px;
+    margin-left: 40px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 21px;
+}
+
+.card h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    cursor: default;
+    margin-bottom: 4px;
+}
+.card .parag{
+    width: 100%;
+    height: 70px;
+}
+.card p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 21px;
+}
+
+.card h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #05A84B;
+    margin-bottom: 21px;
+    cursor: default;
+}
+
+.card select {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #4F4F4F;
+    border-radius: 25px;
+    padding: 9px 16px;
+    margin-bottom: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.card button {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background: #EC0000;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}

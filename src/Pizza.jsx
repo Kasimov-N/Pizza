@@ -1,0 +1,7 @@
+let Pizza ={
+    h1: ["Cheese Lovers", "Pepperoni Pizza", "Margherita Pizza", "Pizza", "Margherita", "Cheese", "Pepperoni", "Cheese Pizza"],
+    img: ['https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60', 'https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60','https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60', 'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60', 'https://images.unsplash.com/photo-1593504049359-74330189a345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'],
+    p: ['Combination of Alfredo sauce and two cheeses - Romano, and Parmesan.', 'Pizza with homemade spicy beef sausage', 'Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.'],
+    h2: ['$20.00', '$35.00','$30.00' ,'$10.00','$12.00', '$28.00', '$45.00']
+}
+export default Pizza
